@@ -17,6 +17,9 @@ function lockAllExceptActive(activeDoc, activeLayer)  {
         if (layer.typename == 'LayerSet') {
             lockAllExceptActive(layer, activeLayer);
          } else {
+             if(layer.isBackgroundLayer) {
+                 layer.isBackgroundLayer = false;
+             } 
              layer.allLocked = true;
          }
      }
