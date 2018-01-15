@@ -6,7 +6,7 @@ If you have an idea for a script, let me know and I'll give it a crack when I ha
 To use these scripts:
 1. Copy the script into the Scripts folder in the Presets directory of Photoshop. On Windows, this should be `C:\Program Files\Adobe\Adobe Photoshop CC 2018\Presets\Scripts`, or whatever other version of Photoshop you are using. 
 2. Restart Photoshop if necessary. 
-3. The script should now appear under File > Scripts. You can also use Actions to assign a keyboard shortcut to a script. See <http://www.tranberry.com/photoshop/photoshop_scripting/tips/script_shortcut.html> for instructions. 
+3. The script should now appear under File > Scripts. It is possible to assign a keyboard shortcut to it.
 
 ## Notes on the scripts
 - `lock_all_except_active` locks all the layers in the current document except for the selected layer, to prevent you from accidentally painting on the wrong layer. Unfortunately it seems to take a couple of seconds, so probably not very useful. 
